@@ -1,0 +1,22 @@
+Type: Compendium
+Package: MPA 6020: Advanced Data Analytics
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "Ani",
+           family = "Ruhil",
+           role = c("aut", "cre"),
+           email = "ruhil@ohio.edu")
+Description: This is a course where you will be introduced to R,
+    an open-source data analysis and visualization environment that is in
+    demand and in short supply. You will learn how to acquire data
+    manually and via APIs or online repositories clean and otherwise
+    prepare data for analysis, to analyze it, and then to make both static
+    and interactive visualizations from the cleaned/analyzd data.
+License: MIT + file LICENSE
+Depends: 
+    holepunch
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
