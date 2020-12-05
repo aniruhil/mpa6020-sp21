@@ -7,6 +7,6 @@ USER ${NB_USER}
 
 
 
-RUN wget https://github.com/aniruhil/mpa6020-sp21/raw/master/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2020-12-05/')); devtools::install_deps()"
+RUN wget https://github.com/aniruhil/mpa6020-sp21/raw/main/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2020-12-05/')); devtools::install_deps()"
 
 RUN rm DESCRIPTION.1; exit 0
